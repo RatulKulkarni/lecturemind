@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: demo
+
+  servlet:
+    multipart:
+      max-file-size: 1GB
+      max-request-size: 1GB
+      file-size-threshold: 2MB
+
+  mongodb:
+      uri: mongodb+srv://sanchitkhad100_db_user:30HoAh3Ju9iinsO1@cluster0.99nj29o.mongodb.net/demo?retryWrites=true&w=majority
+
+jwt:
+  secret: TellLordTywinwinteriscomingforhim.Twentythousandnorthernersmarchingsouthtofindoutifhereallydoesshitgold.
+  expiration: 3600000
+
+PYTHON_API_URL: https://uncarpentered-overbumptiously-celesta.ngrok-free.dev
