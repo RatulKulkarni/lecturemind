@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import {
-  HiOutlineSparkles,
   HiOutlineVideoCamera,
   HiOutlineDocumentText,
   HiOutlineQuestionMarkCircle,
@@ -76,7 +75,7 @@ export default function LandingPage() {
       >
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary-500 to-accent-500 flex items-center justify-center shadow-lg shadow-primary-500/20">
-            <HiOutlineSparkles className="w-5 h-5 text-white" />
+            <img src="/favicon.svg" alt="LectureMind" className="w-5 h-5" />
           </div>
           <span className="text-xl font-bold gradient-text">LectureMind</span>
         </div>
@@ -262,7 +261,7 @@ export default function LandingPage() {
       <footer className="relative z-10 px-6 sm:px-12 lg:px-20 py-8 border-t border-surface-200/40">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <HiOutlineSparkles className="w-5 h-5 text-primary-400" />
+            <img src="/favicon.svg" alt="LectureMind" className="w-5 h-5" />
             <span className="text-sm font-medium text-surface-600">LectureMind</span>
           </div>
           <p className="text-sm text-surface-500">&copy; {new Date().getFullYear()} LectureMind. Built with AI.</p>

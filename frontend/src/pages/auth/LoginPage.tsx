@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { HiOutlineSparkles, HiOutlineEnvelope, HiOutlineLockClosed } from 'react-icons/hi2';
+import { HiOutlineEnvelope, HiOutlineLockClosed } from 'react-icons/hi2';
 import toast from 'react-hot-toast';
 import { useAppDispatch, useAppSelector } from '../../store/store';
 import { login, clearError } from '../../store/authSlice';
@@ -45,7 +45,7 @@ export default function LoginPage() {
           className="text-center"
         >
           <div className="w-20 h-20 rounded-2xl bg-white/10 backdrop-blur-sm flex items-center justify-center mb-8 mx-auto border border-white/20">
-            <HiOutlineSparkles className="w-10 h-10 text-white" />
+            <img src="/favicon.svg" alt="LectureMind" className="w-10 h-10" />
           </div>
           <h1 className="text-5xl font-black text-white mb-4 tracking-tight">
             LectureMind
@@ -67,7 +67,7 @@ export default function LoginPage() {
           <div className="bg-surface-100/95 backdrop-blur-xl rounded-3xl shadow-2xl shadow-black/30 p-8 border border-surface-200/50">
             <div className="lg:hidden flex items-center gap-3 mb-8 justify-center">
               <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary-500 to-accent-500 flex items-center justify-center">
-                <HiOutlineSparkles className="w-5 h-5 text-white" />
+                <img src="/favicon.svg" alt="LectureMind" className="w-5 h-5" />
               </div>
               <span className="text-xl font-bold gradient-text">LectureMind</span>
             </div>

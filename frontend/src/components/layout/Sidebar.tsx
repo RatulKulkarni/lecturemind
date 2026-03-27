@@ -9,7 +9,6 @@ import {
   HiOutlineArrowRightOnRectangle,
   HiOutlineBars3,
   HiOutlineXMark,
-  HiOutlineSparkles,
 } from 'react-icons/hi2';
 import { useAppDispatch } from '../../store/store';
 import { logout } from '../../store/authSlice';
@@ -35,7 +34,7 @@ export default function Sidebar() {
       {/* Logo */}
       <div className="flex items-center gap-3 px-4 py-5 border-b border-surface-200/40">
         <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-primary-500 to-accent-500 flex items-center justify-center flex-shrink-0 shadow-lg shadow-primary-500/20">
-          <HiOutlineSparkles className="w-5 h-5 text-white" />
+          <img src="/favicon.svg" alt="LectureMind" className="w-5 h-5" />
         </div>
         <AnimatePresence>
           {(!collapsed || mobile) && (
